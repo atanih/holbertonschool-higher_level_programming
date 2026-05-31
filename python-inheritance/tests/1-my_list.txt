@@ -23,3 +23,8 @@ Using `MyList`
     >>> my_list5 = MyList([1, 2, 3])
     >>> print(my_list5)
     [1, 2, 3]
+    >>> my_list6 = MyList([3, 1, 2])
+    >>> my_list6.print_sorted()
+    [1, 2, 3]
+    >>> my_list6
+    [3, 1, 2]
