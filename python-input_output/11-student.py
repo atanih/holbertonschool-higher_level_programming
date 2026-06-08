@@ -29,7 +29,7 @@ class Student:
         """
         if type(attrs) is list and all(type(a) is str for a in attrs):
             return {k: getattr(self, k) for k in attrs if hasattr(self, k)}
-        return self._dict_
+        return vars(self)
 
     def reload_from_json(self, json):
         """Replace all attributes of the Student instance from a dictionary.
