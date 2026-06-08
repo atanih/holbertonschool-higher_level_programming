@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""Module that defines a Student class with disk serialization and reload"""
+"""Module that defines a Student class
+with disk serialization and reload"""
 
 
 class Student:
@@ -32,10 +33,12 @@ class Student:
         return vars(self)
 
     def reload_from_json(self, json):
-        """Replace all attributes of the Student instance from a dictionary.
+        """Replace all attributes of the
+        Student instance from a dictionary.
 
         Args:
-            json: A dictionary with attribute names as keys and values as values
+            json: A dictionary with attribute
+            names as keys and values as values
         """
         for key, value in json.items():
             setattr(self, key, value)
