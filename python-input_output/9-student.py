@@ -5,7 +5,7 @@
 class Student:
     """A class that defines a student."""
 
-    def _init_(self, first_name, last_name, age):
+    def __init__(self, first_name, last_name, age):
         """Initialize Student instance.
 
         Args:
@@ -23,4 +23,4 @@ class Student:
         Returns:
             A dictionary representation of the Student
         """
-        return self._dict_
+        return self.__dict__
