@@ -1,3 +1,2 @@
--- creates user user_0d_1
-CREATE USER IF NOT EXISTS 'user_0d_1'@'localhost' IDENTIFIED BY 'user_0d_1_pwd';
-GRANT ALL PRIVILEGES ON . TO 'user_0d_1'@'localhost' WITH GRANT OPTION;);
+-- creates table id_not_null
+CREATE TABLE IF NOT EXISTS id_not_null (id INT DEFAULT 1, name VARCHAR(256);
