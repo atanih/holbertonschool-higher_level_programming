@@ -28,4 +28,3 @@ if __name__ == "__main__":
     print(", ".join(names))
     cur.close()
     db.close()
-El contenido es generad
