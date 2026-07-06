@@ -4,7 +4,7 @@ import MySQLdb
 import sys
 
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     """Connect to MySQL and print all states ordered by id."""
     db = MySQLdb.connect(
         host="localhost",
