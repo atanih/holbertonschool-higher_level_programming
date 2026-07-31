@@ -34,6 +34,22 @@ Divide by a float and by a negative number:
     >>> matrix_divided([[1, 2]], -2)
     [[-0.5, -1.0]]
 
+Divide by infinity, every element becomes 0.0:
+
+    >>> matrix_divided([[1, 2, 3], [4, 5, 6]], float('inf'))
+    [[0.0, 0.0, 0.0], [0.0, 0.0, 0.0]]
+
+    >>> matrix_divided([[1, 2], [3, 4]], float('inf'))
+    [[0.0, 0.0], [0.0, 0.0]]
+
+Divide a matrix holding a float infinity:
+
+    >>> matrix_divided([[1, 2], [3, float('inf')]], 2)
+    [[0.5, 1.0], [1.5, inf]]
+
+    >>> matrix_divided([[1, 2], [3, float('inf')]], float('inf'))
+    [[0.0, 0.0], [0.0, nan]]
+
 ``matrix`` is not a list of lists of integers/floats:
 
     >>> matrix_divided("Holberton", 3)
