@@ -1,0 +1,82 @@
+The ``5-text_indentation`` module
+=================================
+
+Using ``text_indentation``
+--------------------------
+
+Import the function:
+
+    >>> text_indentation = __import__('5-text_indentation').text_indentation
+
+Two new lines are printed after each ``.``, ``?`` and ``:``:
+
+    >>> text_indentation("Hello. How are you? Fine: thanks")
+    Hello.
+    <BLANKLINE>
+    How are you?
+    <BLANKLINE>
+    Fine:
+    <BLANKLINE>
+    thanks
+
+A single special character:
+
+    >>> text_indentation(".")
+    .
+    <BLANKLINE>
+
+    >>> text_indentation("?")
+    ?
+    <BLANKLINE>
+
+    >>> text_indentation(":")
+    :
+    <BLANKLINE>
+
+Spaces at the beginning are removed:
+
+    >>> text_indentation("    Holberton")
+    Holberton
+
+Spaces after a special character are removed:
+
+    >>> text_indentation("Hi.     Bye")
+    Hi.
+    <BLANKLINE>
+    Bye
+
+An empty string prints nothing:
+
+    >>> text_indentation("")
+
+A text without any special character:
+
+    >>> text_indentation("Holberton School")
+    Holberton School
+
+New lines inside the text are kept:
+
+    >>> text_indentation("Hi\nBye.")
+    Hi
+    Bye.
+    <BLANKLINE>
+
+``text`` is not a string:
+
+    >>> text_indentation(12)
+    Traceback (most recent call last):
+    TypeError: text must be a string
+
+    >>> text_indentation(None)
+    Traceback (most recent call last):
+    TypeError: text must be a string
+
+    >>> text_indentation(["Holberton"])
+    Traceback (most recent call last):
+    TypeError: text must be a string
+
+Missing argument:
+
+    >>> text_indentation()
+    Traceback (most recent call last):
+    TypeError: text_indentation() missing 1 required positional argument: 'text'
