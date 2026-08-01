@@ -29,6 +29,7 @@ en la línea de comandos.
 | `1-multi_languages.js` | Imprime tres líneas: C, Python y JavaScript |
 | `2-arguments.js` | Imprime un mensaje según el número de argumentos |
 | `3-value_argument.js` | Imprime el primer argumento recibido |
+| `4-concat.js` | Imprime dos argumentos con el formato "X is Y" |
 
 ## Autor
 
