@@ -28,6 +28,7 @@ en la línea de comandos.
 | `0-javascript_is_amazing.js` | Imprime "JavaScript is amazing" usando una constante |
 | `1-multi_languages.js` | Imprime tres líneas: C, Python y JavaScript |
 | `2-arguments.js` | Imprime un mensaje según el número de argumentos |
+| `3-value_argument.js` | Imprime el primer argumento recibido |
 
 ## Autor
 
