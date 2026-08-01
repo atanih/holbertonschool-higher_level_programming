@@ -34,6 +34,7 @@ en la línea de comandos.
 | `6-multi_languages_loop.js` | Imprime tres líneas recorriendo un arreglo con un bucle |
 | `7-multi_c.js` | Imprime "C is fun" x veces |
 | `8-square.js` | Imprime un cuadrado de X del tamaño indicado |
+| `9-add.js` | Suma dos enteros con una función add(a, b) |
 
 ## Autor
 
