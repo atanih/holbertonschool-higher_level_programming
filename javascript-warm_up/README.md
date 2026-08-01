@@ -30,6 +30,7 @@ en la línea de comandos.
 | `2-arguments.js` | Imprime un mensaje según el número de argumentos |
 | `3-value_argument.js` | Imprime el primer argumento recibido |
 | `4-concat.js` | Imprime dos argumentos con el formato "X is Y" |
+| `5-to_integer.js` | Convierte el primer argumento a entero si es posible |
 
 ## Autor
 
