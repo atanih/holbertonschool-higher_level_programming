@@ -37,6 +37,8 @@ en la línea de comandos.
 | `9-add.js` | Suma dos enteros con una función add(a, b) |
 | `10-factorial.js` | Calcula el factorial de forma recursiva |
 | `11-second_biggest.js` | Busca el segundo entero mayor de los argumentos |
+| `12-object.js` | Modifica el valor de una propiedad de un objeto |
+| `13-add.js` | Exporta una función add(a, b) reutilizable |
 
 ## Autor
 
