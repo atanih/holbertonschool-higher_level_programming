@@ -31,6 +31,9 @@ en la línea de comandos.
 | `3-value_argument.js` | Imprime el primer argumento recibido |
 | `4-concat.js` | Imprime dos argumentos con el formato "X is Y" |
 | `5-to_integer.js` | Convierte el primer argumento a entero si es posible |
+| `6-multi_languages_loop.js` | Imprime tres líneas recorriendo un arreglo con un bucle |
+| `7-multi_c.js` | Imprime "C is fun" x veces |
+| `8-square.js` | Imprime un cuadrado de X del tamaño indicado |
 
 ## Autor
 
