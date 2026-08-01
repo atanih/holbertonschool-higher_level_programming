@@ -36,6 +36,7 @@ en la línea de comandos.
 | `8-square.js` | Imprime un cuadrado de X del tamaño indicado |
 | `9-add.js` | Suma dos enteros con una función add(a, b) |
 | `10-factorial.js` | Calcula el factorial de forma recursiva |
+| `11-second_biggest.js` | Busca el segundo entero mayor de los argumentos |
 
 ## Autor
 
