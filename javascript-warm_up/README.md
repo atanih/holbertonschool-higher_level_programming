@@ -26,6 +26,7 @@ en la línea de comandos.
 | Archivo | Descripción |
 |---|---|
 | `0-javascript_is_amazing.js` | Imprime "JavaScript is amazing" usando una constante |
+| `1-multi_languages.js` | Imprime tres líneas: C, Python y JavaScript |
 
 ## Autor
 
